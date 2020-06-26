@@ -1,0 +1,100 @@
+.imagelogo{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}.imagelogo:hover{
+    background-color: rgb(55, 0, 255);
+}
+.navbar-brand{
+    height: 50px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagebtn{
+    width: 50px;
+}
+
+.calculator-button{
+    margin: 50px;
+    box-shadow: 5px 5px 20px 5px #adadad;
+    width: 150px;
+}
+
+.modal-content,.modal-body{
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    width:300px !important;
+    padding: 0 !important;
+}
+.calmain{
+    border: none;
+    width: 99.3%;
+    border-radius: 10px;
+    
+}
+.btnbody{
+    display: flex;
+    
+}
+.sec2{
+    width: 60px;
+    
+}
+.result{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    color: #000000;
+    border: none;
+    padding: 5px;
+}
+.result2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+    border: none;
+    padding: 5px ;
+    background-color: rgb(224, 224, 224);
+    
+}
+.iconer{
+    background-color:rgb(224, 224, 224);
+    border-top-right-radius: 12px ;
+    border-top-left-radius: 12px ;
+    padding: 5px;
+    
+} 
+
+.calcu-btn{
+    width: 100%;
+    background-color: transparent;
+    width: 70px;
+    height: 60px;
+    margin: 1px;
+    border: transparent;
+    color: #000000;
+    margin-bottom:5px ;
+    font-size: 20px;
+    font-weight: 450;
+    outline: none;
+    
+}
+.calcu-btn:hover{
+    color: greenyellow;
+}
+.calcu-btn:focus{
+    color: rgb(47, 224, 255);
+    outline: none;
+}
+input:focus{
+    border: transparent;
+}
+
+input{
+    outline: none;
+}
+.close:focus{
+    outline: none;
+}
+
